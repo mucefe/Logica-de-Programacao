@@ -58,7 +58,7 @@ programa
 		leia(resposta)
 			se ((resposta==ap[0]) ou (resposta==ap[1]) ou (resposta==ap[2]) ou (resposta==ap[3])){
 				limpa()
-				escreva("\nO apartamento número " + resposta + " já foi cadastrado. Iniciando recadastro dos apartamento.")
+				escreva("\nO apartamento número " + resposta + " já foi cadastrado. Iniciando recadastro dos apartamentos.")
 				ap[0]=0
 				ap[1]=0
 				ap[2]=0
