@@ -6,8 +6,8 @@
 jogos e obtiveram as seguintes pontuações:
 
 Equipe		Jogo 1		Jogo 2		Jogo 3
-Alfa			  10			  10			  5
-Beta			  5			  7			  4
+Alfa		 10			  10			  5
+Beta		  5			  7			  4
 Celta		  6			  4			  9
 Delta		  8			  8			  11
 
