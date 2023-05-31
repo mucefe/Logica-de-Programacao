@@ -83,25 +83,7 @@ programa
 					limpa()
 				} enquanto (validador == falso)
 
-				//jogos[i][j]=pontuacao
-				/*
-				faca{
-					
-				se (((i>0) e (i<3) e  (pontuacao==jogos[i-1][j])) ou ((i>0) e (i<3) e (pontuacao==jogos[i+1][j]))){
-					escreva("VALOR JÁ INFORMADO\nAs equipes não podem ter a mesma pontuação numa mesma rodada.")
-					escreva("\nInsira novamente um valor válido: ")
-					leia(pontuacao)
-					
-					validador=falso
-				} senao {
-					jogos[i][j]=pontuacao
-					validador=verdadeiro
-				}
-				} enquanto (validador==falso)*/
-				
-				
-				
-				
+							
 			}
 			
 			
@@ -314,14 +296,3 @@ programa
 		} enquanto (continua==verdadeiro)
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 2102; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {jogos, 38, 9, 5}-{i, 58, 16, 1}-{i, 67, 16, 1}-{j, 69, 17, 1}-{k, 74, 19, 1};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
