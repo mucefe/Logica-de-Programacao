@@ -8,35 +8,37 @@ uso de uma variável lógica, sendo que: ele será Verdadeiro quando o valor for
 quando ele não for primo.
 */
 
+
+
 programa
 {
-	
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
-		inteiro num=recebeNumero()
-		avaliaNumero(num)
-	}
-
-	funcao inteiro recebeNumero(){
-		inteiro numero
-		escreva("Insira um número inteiro: ")
-		leia(numero)
-
-		retorne numero
+		inteiro num
 		
+		escreva("Insira um número inteiro positivo: ")
+		leia(num)
+		logico verificador= avaliaNumero(num)
+		se (verificador==verdadeiro) {
+			escreva(num + " é um número primo.")
+		} senao {
+			escreva(num + " não é um número primo.")
+		}
 	}
-	funcao avaliaNumero(inteiro numero){
+
+	
+	funcao logico avaliaNumero(inteiro numero){
 		logico primo
-		se (numero%2==0){
-			primo=verdadeiro
-		} senao {
-			primo=falso
+		se (numero<=1){
+			retorne falso
 		}
-		se (primo==verdadeiro){
-			escreva("\nO número digitado é primo.")
-		} senao {
-			escreva("\nO número digitado NÃO é primo.")
+		para (inteiro i=2;i<mat.raiz(numero,2.0);i++){
+			se (numero%i==0){
+				retorne falso
+			}
 		}
+		retorne verdadeiro
 	}
 }
 
@@ -45,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 641; 
+ * @POSICAO-CURSOR = 512; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
