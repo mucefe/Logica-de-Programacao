@@ -20,7 +20,7 @@ programa
 	inclua biblioteca Texto --> t
 	inclua biblioteca Util --> u
 	funcao inicio()
-	{	// Variﾃ｡veis
+	{	// Variáveis
 		inteiro opcao=0
 		logico continua=falso
 		cadeia marca=""
