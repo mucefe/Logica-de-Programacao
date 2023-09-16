@@ -5,7 +5,7 @@
 /*Você deverá controlar a recepção de doações de alimentos para animais. Para
 isso, você deve:
 1. Deixar pré-cadastrados os dados de 3 tipos de alimentos para animais, a partir de seu
-porte (alimentos para animais de pequeno, mﾃｩdio e grande porte);
+porte (alimentos para animais de pequeno, médio e grande porte);
 2. Realizar o cadastro de 3 rações por porte, tendo como dados:
 a. Marca (pode repetir);
 b. Peso da embalagem;
